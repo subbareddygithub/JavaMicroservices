@@ -25,7 +25,7 @@ import com.cloudant.client.api.CloudantClient;
 import com.cloudant.client.api.Database;
 import com.cloudant.client.api.model.Response;
 
-@CrossOrigin(origins = "http://169.51.207.96:32194")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/v1")
 public class BianAccountOpeningController {
